@@ -17,6 +17,10 @@
 
 body {
   color: var(--primary-color);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
@@ -25,10 +29,10 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
   color: #fff;
   margin: 0 auto;
   padding: 0;
+  width: 100%;
 }
 
 main {
@@ -39,6 +43,7 @@ main {
   align-items: center;
   margin: 20px auto 20px auto;
   gap: 50px;
+  flex: 1;
 }
 
 aside img {
@@ -51,11 +56,27 @@ h1 {
   padding: 20px 10px 20px 10px;
 }
 
-.card div,
-aside {
+.card {
+  border-radius: 10px;
+  border: 1px solid #1342663a;
+  width: 100%;
+  height: 100%;
+}
+
+.card h2 {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px 0px 10px 0px;
+}
+
+.card div, aside {
   display: flex;
   justify-content: space-evenly;
-  gap: 20px;
+  gap: 10px;
+  padding: 30px;
 }
 
 hr {
@@ -65,7 +86,6 @@ hr {
 section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -73,6 +93,17 @@ section,
 h1,
 h2 {
   font-weight: bold;
+}
+
+section ul {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+section ul li {
+  margin: 10px 0px 10px 0px;
 }
 
 section h3 {
@@ -119,6 +150,7 @@ footer {
   padding: var(--container-padding);
   background-color: var(--primary-color);
   color: #fff;
+  margin-top: auto;
 }
 
 footer p {
