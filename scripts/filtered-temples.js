@@ -55,21 +55,30 @@ const temples = [
     imageUrl:
       "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg",
   },
+  // Add more temple objects here...
   {
-    templeName: "Accra Ghana",
-    location: "Accra, Ghana",
-    dedicated: "2004, January, 11",
-    area: 17500,
+    templeName: "Bahía Blanca Argentina",
+    location: "Bahia, Blanca, Argentina",
+    dedicated: "2022, April, 9",
+    area: 19000,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/accra-ghana/400x250/accra-ghana-temple.jpg",
+      "https://churchofjesuschristtemples.org/assets/img/temples/bahia-blanca-argentina-temple/bahia-blanca-argentina-temple-24944-main.jpg",
   },
   {
-    templeName: "Salt Lake",
-    location: "Salt Lake City, Utah, United States",
-    dedicated: "1893, April, 6",
-    area: 253015,
+    templeName: "Mérida Mexico",
+    location: "Mérida, Yucatan, Mexico",
+    dedicated: "2000, July, 8",
+    area: 10700,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake/400x250/salt-lake-temple.jpg",
+      "https://churchofjesuschristtemples.org/assets/img/temples/merida-mexico-temple/merida-mexico-temple-14119-main.jpg",
+  },
+  {
+    templeName: "Dallas Texas",
+    location: "Dallas, Texas, United States",
+    dedicated: "1984, October, 19–24",
+    area: 44207,
+    imageUrl:
+      "https://churchofjesuschristtemples.org/assets/img/temples/dallas-texas-temple/dallas-texas-temple-55240-main.jpg",
   },
 ];
 
@@ -141,7 +150,3 @@ const lastModifiedElement = document.querySelector("#lastModified");
 
 currentYearElement.innerHTML = currentYear;
 lastModifiedElement.innerHTML = `Last Modified ${document.lastModified}`;
-
-
-
-
