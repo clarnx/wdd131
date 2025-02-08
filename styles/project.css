@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #0047ab;
+  --secondary-color: #000000;
+  --accent1-color: #78c5d7;
+  --accent2-color: #fce172;
+  --container-padding: 10px 50px 10px 50px;
+  --section-margin: 50px 0px 50px 0px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sefif;
+  font-weight: 100;
+}
