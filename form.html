@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 Product Review Form - Clarence Ahiabor</title>
+
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Clarence Ahiabor - Assignment for WDD 131">
+    <meta name="author" content="Clarence Ahiabor">
+
+    <link rel="stylesheet" href="styles/form.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700;900&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    >
+
+    <script src="scripts/form.js" defer></script>
+</head>
+
+
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <div class="form-container">
+        <form action="review.html" method="get">
+            <div class="form-group">
+                <label for="product">Product Name</label>
+                <select id="product" name="product" required>
+                    <option value="" disabled selected>Choose a Product ...</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Overall Rating</label>
+                <div class="rating">
+                    <label>
+                        ★
+                        <input type="radio" name="rating" value="1" required>
+                    </label>
+                    <label>
+                        ★★
+                        <input type="radio" name="rating" value="2">
+                    </label>
+                    <label>
+                        ★★★
+                        <input type="radio" name="rating" value="3">
+                    </label>
+                    <label>
+                        ★★★★
+                        <input type="radio" name="rating" value="4">
+                    </label>
+                    <label>
+                        ★★★★★
+                        <input type="radio" name="rating" value="5">
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="install-date">Date of Installation</label>
+                <input type="date" id="install-date" name="install-date" required>
+            </div>
+
+            <div class="form-group">
+                <label>Which features did you find useful in the product?</label>
+                <p><em>(Check all that apply)</em></p>
+                <div class="features">
+                    <div class="feature-item">
+                        <input type="checkbox" id="durability" name="features" value="durability">
+                        <label for="durability">Durability</label>
+                    </div>
+                    <div class="feature-item">
+                        <input type="checkbox" id="ease" name="features" value="ease">
+                        <label for="ease">Ease of Use</label>
+                    </div>
+                    <div class="feature-item">
+                        <input type="checkbox" id="performance" name="features" value="performance">
+                        <label for="performance">Performance</label>
+                    </div>
+                    <div class="feature-item">
+                        <input type="checkbox" id="design" name="features" value="design">
+                        <label for="design">Design</label>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label for="review">Written Review <span class="optional">(Optional)</span></label>
+                <textarea id="review" name="review" rows="6"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="name">Your Name <span class="optional">(Optional)</span></label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <input type="submit" value="Post Review">
+        </form>
+    </div>
+    <footer>
+      <p>&copy;<span id="currentyear"></span> | Clarence Ahiabor | Accra</p>
+      <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
