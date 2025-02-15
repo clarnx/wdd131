@@ -29,7 +29,7 @@ const products = [
         name: 'Creator Studio',
         category: 'creator',
         price: 1899,
-        specs: 'Apple M4 4070, 26GB RAM, 1TB SSD',
+        specs: 'Apple M4, 26GB RAM, 1TB SSD',
         image: 'images/laptops/creator-studio.png'
     }
 ];
