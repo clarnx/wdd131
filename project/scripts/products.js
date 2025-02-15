@@ -6,7 +6,7 @@ const products = [
         category: 'gaming',
         price: 1499,
         specs: 'RTX 4060, 16GB RAM, 1TB SSD',
-        image: '/images/laptops/gaming-pro-x.png'
+        image: 'images/laptops/gaming-pro-x.png'
     },
     {
         id: 2,
@@ -14,7 +14,7 @@ const products = [
         category: 'business',
         price: 1299,
         specs: 'Intel i7, 16GB RAM, 512GB SSD',
-        image: '/images/laptops/business-elite.png'
+        image: 'images/laptops/business-elite.png'
     },
     {
         id: 3,
@@ -22,7 +22,7 @@ const products = [
         category: 'student',
         price: 699,
         specs: 'Intel i5, 8GB RAM, 256GB SSD',
-        image: '/images/laptops/student-essential.png'
+        image: 'images/laptops/student-essential.png'
     },
     {
         id: 4,
@@ -30,7 +30,7 @@ const products = [
         category: 'creator',
         price: 1899,
         specs: 'Apple M4 4070, 26GB RAM, 1TB SSD',
-        image: '/images/laptops/creator-studio.png'
+        image: 'images/laptops/creator-studio.png'
     }
 ];
 
