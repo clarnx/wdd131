@@ -1,0 +1,29 @@
+.about-page {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-content {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.value-item {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.5s ease;
+    margin: 1rem 0;
+    list-style-type: none;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.value-item::before {
+    content: "•";
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+}
